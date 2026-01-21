@@ -8,6 +8,9 @@ The chosen ARIMA(0,1,1) model is then used to produce dynamic forecasts for the 
 
 Finally, the code checks model adequacy through residual diagnostics. It calculates model residuals, examines their autocorrelation with correlograms, and applies the Ljung–Box test to see whether residuals resemble white noise. If there is no strong remaining autocorrelation, the ARIMA(0,1,1) specification is considered suitable for short‑term forecasting of medium rice prices.
 
+Paddy production data : https://www.bps.go.id/id/statistics-table/2/MjM0NSMy/produksi-tanaman-pangan-nasional.html
+Rice price data : https://www.bps.go.id/id/statistics-table/2/MjI3NyMy/rata-rata-harga-beras-bulanan-di-tingkat-penggilingan-menurut-kualitas-.html
+
 The code 
 
 
